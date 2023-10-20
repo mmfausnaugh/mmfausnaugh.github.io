@@ -41,6 +41,8 @@ PAGE_ORDER_BY = 'pageorder'
 STATIC_PATHS = ['images','file_assets']
 AUTHOR_SAVE_AS = ''
 
+OUTPUT_PATH = 'docs/'
+
 ##PLUGINS = [
 ##    # ...
 ##    'better_tables',
