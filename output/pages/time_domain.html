@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Time Domain Astronomy</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="../theme/css/main.css" />
+</head>
+<body>
+
+    <div class="navigation pure-menu pure-menu-horizontal">
+       <!--<h1> <a href="../" class="pure-menu-heading  pure-menu-link">Home</a></h1>-->
+       <ul class="pure-menu-list">
+	 <li class="pure-menu-item"> <h3><a href="../" class="pure-menu-heading  pure-menu-link">Home</a></h3></li>
+            <li class="pure-menu-item"></li>
+
+            <li class="pure-menu-item" ><h3><a href="../pages/about.html" class="pure-menu-link"  >About</a></h3></li>
+            <li class="pure-menu-item" ><h3><a href="../pages/research.html" class="pure-menu-link"  >Research</a></h3></li>
+            <li class="pure-menu-item" ><h3><a href="../pages/outreach.html" class="pure-menu-link"  >Mentoring/Outreach</a></h3></li>
+            <li class="pure-menu-item" ><h3><a href="../pages/resources.html" class="pure-menu-link"  >Resources</a></h3></li>
+            <li class="pure-menu-item" ><h3><a href="../pages/CV.html" class="pure-menu-link"  >CV</a></h3></li>
+        </ul>
+    </div>
+
+
+<div class="page-container">
+    <div class="article-header-container">
+        <div class="background-image-container">
+
+            <div class="background-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)), url({filename}/../../images/tess_lc.png);">
+                <img src="{filename}/../../images/tess_lc.png" alt="Time Domain Astronomy">
+                <div class="title">
+                  <h1>		   
+		    Time Domain Astronomy
+                  </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="entry-content">
+        <!-- 'Time Domain Astronomy' is the observational side of research, and data analysis -->
+<!-- 'Extragalactic Astrophysics' is the theory/physics side (SMBHs and SNe) -->
+<!-- 'TESS' is the functional stuff -->
+
+<h2><a href="../pages/research.html">Back to Research Overview</a></h2>
+<h2>Precovery of transients by TESS</h2>
+<p>See my  <a href="https://tess.mit.edu/public/tesstransients/">database of transients observed by TESS</a>.</p>
+<p>Because TESS continuously monitors a large field of view, it observes many astrophysical transients before they are discovered from the ground.  This opens open many opportunities, for example,  measuring the time time of first light of supernova explosions.</p>
+<p>There have been over 4,000 transients observed by TESS in its first 4 years of operations.  I am maintaining a <a href="https://tess.mit.edu/public/tesstransients/">website</a> that shows light curves of these transients.  The light curves are from a custom pipeline built on top of <a href="https://ui.adsabs.harvard.edu/abs/1999ascl.soft09003A/abstract">ISIS</a> difference imaging.</p>
+<p>If you see something that strikes your interest, let me know and I will be happy to share the data (michael.fausnaugh@ttu.edu).</p>
+<p>Results from TESS observations of Type Ia supernova are on my <a href="../pages/extragalactic.html">Extragalactic Astrophysics</a> page.</p>
+<h2>Multiwavelength monitoring with TESS</h2>
+<p>See my database of <a href="https://space.mit.edu/home/faus/tesstransients/maxi_plots/">TESS-<em>MAXI</em></a> and <a href="https://space.mit.edu/home/faus/tesstransients/bat_plots/">TESS-<em>Swift BAT</em></a> light curves.</p>
+<p>TESS's large field of view also make it is easy to coordinate multiwavelength monitoring programs.  I'm leading programs with <a href="https://heasarc.gsfc.nasa.gov/docs/nicer/proposals/ao4/NICER_Cycle_4_Accepted_Proposals.pdf"><em>NICER</em></a>, <em>Swift</em>, and <a href="https://hera.gsfc.nasa.gov/docs/tess/data/approved-programs/cycle5/GO5118.txt">TESS</a> to simultaneously observe nearby AGN at X-ray, UV, and optical/NIR wavelengths.</p>
+<p>I also maintain databases of simultaneous light curves from TESS and all-sky X-ray monitor data from <a href="https://space.mit.edu/home/faus/tesstransients/maxi_plots/"><em>MAXI</em></a> and <a href="https://space.mit.edu/home/faus/tesstransients/bat_plots/"><em>Swift BAT</em></a> (and I am planning to add <em>Fermi</em> soon).  I'm happy to share data if you see something interesting.</p>
+<h2>Search for fast transients with TESS</h2>
+<p>With a limiting magnitude of 20th to 21st magnitude in 8 to 30 hours, TESS can find short-timescale, exotic transients such as those powered by newly formed neutron stars and black holes or electromagentic counterparts of neutron star mergers (kilonovae).  For example, the rate of detectable Fast Blue Optical Transients in TESS data is about 1 per 4 months and the rate of detectable kilonova is 0.5 per year. The advantage of using TESS to search for these transients is that its continuous light curves can identify objects that evolve on timescales less than one day, while TESS’s wide field-of-view has a reasonable probability of observing rare events. As of September 2022, TESS data are being released on a weekly basis (<a href="https://archive.stsci.edu/hlsp/tica">TICA</a>, PI Fausnaugh), and we have started a program to search for these valuable transients in TESS images as soon as the data are available.</p>
+<h2>Reverberation Mapping</h2>
+<p>See my calibration code <a href="https://github.com/mmfausnaugh/mapspec">mapspec on github</a>.</p>
+<p>Reverberation mapping is a technique to probe the environments around supermassive black holes by measuring light echoes.  I developed a method to calibrate night-to-night reverberation mapping spectra on a consistent scale.</p>
+<p>An implementation of this code is available on github, in the form of a python package called <a href="https://github.com/mmfausnaugh/mapspec">mapspec</a> (<em>M</em>CMC <em>A</em>lgorithm for <em>P</em>arameters of <em>SPEC</em>tra).  The algorithm and performance of the code is documented in <a href="https://ui.adsabs.harvard.edu/abs/2017PASP..129b4007F/abstract">Fausnaugh 2017</a>.</p>
+<p>Results from reverberation mapping studies that I am involved in are on my <a href="../pages/extragalactic.html">Extragalactic Astrophyics</a> page.</p>
+<!--
+<table style="width:100%">
+  <tr>
+    <td> Type Ia Supernovae</td>
+    <td> Reverberation Mapping</td>
+    </tr>
+    <tr>
+    <td> tess transients</td>
+    <td> Mutliwavelength Studies</td>
+  </tr>
+</table>
+-->
+    </div>
+
+    <footer>
+      <a href="../" title="Michael Fausnaugh">Back to home</a>
+        <!--        <div class="pure-g post-footer">
+            <div class="pure-u-1">
+                <div class="pure-g poster-info">
+                    <div class="pure-u-3-4">
+                        <h3 class="author-name"><a href="../author/michael-fausnaugh.html">Michael Fausnaugh</a></h3>
+                        <p class="author-description">
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+-->
+    </footer>
+
+</div>
+
+
+
+    <footer class="index-footer">
+
+      <!--<a href="../" title="Michael Fausnaugh">Michael Fausnaugh</a>-->
+
+      <p>michael.fausnaugh@ttu.edu<br>
+
+	Department of Physics and Astronomy <br>
+	Texas Tech University<br>
+	Science Builidng, Office 107<br>
+
+	1200 Memorial Circle, Lubbock TX 79409
+      </p>
+
+    </footer>
+
+</body>
+</html>
